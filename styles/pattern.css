@@ -38,6 +38,11 @@ nav a {
     color: aliceblue;
 }
 
+#localizador {
+    background-color: #1c4b4e;
+    box-shadow: 0 2px 5px black;
+}
+
 /* Início Footer */
 footer {
     width: 100%;
@@ -47,4 +52,8 @@ footer {
     text-align: center;
     color: aqua;
     background-color: rgb(75, 75, 75);
+}
+
+footer a {
+    color: aqua;
 }

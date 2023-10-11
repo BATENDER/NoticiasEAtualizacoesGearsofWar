@@ -1,0 +1,84 @@
+main {
+    width: 100%;
+    margin: 20px 0;
+    padding: 20px 0;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#secaoItens {
+    width: 95%;
+    margin: 0 auto;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(.4, 0, 0);
+    background-color: aquamarine;
+    /* Configuração padrão: topo, esquerda e em coluna */
+    display: flex; /* Muda a maneira de mostrar mo navegador */
+    flex-direction: row; /* Muda a direção do FLEX BOX; row: linha; column: coluna; reverse: inverte a ordem dos atributos */
+    justify-content: center; /* Muda a orientação horizontal*/
+    align-items: center; /* Muda a orintação vertical */
+    flex-wrap: wrap; /* evita distorção dos elementos */
+    gap: 15px; /* margem entre elementos */
+}
+
+.item {
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px rgb(.3, 0, 0);
+    background-color: antiquewhite;
+}
+
+.itemImg {
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 0 0 1px rgb(0, 0, 0, .2);
+    background-color: azure;
+}
+
+.itemImg img {
+    width: 100%;
+    height: 100%;
+}
+
+.itemDescricao {
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    padding: 5px;
+    /* background-color: rgb(147, 148, 148); */
+}
+
+.itemDescricao h3 {
+    margin: 10px 0 5px 0;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.itemDescricao p {
+    margin-bottom: 15px;
+    font-size: 10px;
+    text-align: justify;
+    font-family: 'Helvetica Neue';
+}
+
+.itemDescricao span {
+    padding: 7px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: black;
+    background-color: rgb(0, 255, 0);
+}
+
+.itemDescricao a {
+    text-decoration: none;
+}
